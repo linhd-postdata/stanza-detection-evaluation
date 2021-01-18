@@ -1,0 +1,189 @@
+|--- cuaderna_vía_regex <= 0.50
+|   |--- soleá_regex <= 0.50
+|   |   |--- cuarteto_lira_regex <= 0.50
+|   |   |   |--- quintilla_regex <= 0.50
+|   |   |   |   |--- octavilla_regex <= 0.50
+|   |   |   |   |   |--- terceto_monorrimo_regex <= 0.50
+|   |   |   |   |   |   |--- couplet_regex <= 0.50
+|   |   |   |   |   |   |   |--- septeto_lira_regex <= 0.50
+|   |   |   |   |   |   |   |   |--- espinela_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |--- copla_arte_menor_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- sextilla_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- octava_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |--- estrofa_sáfica_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- estrofa_manriqueña_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- copla_real_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- septeto_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- rhyme_type <= 1.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- chamberga_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- ovillejo_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- sexteto_lira_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- romance_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- lira_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- sexteto_lira_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- romance_arte_mayor_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- haiku_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: novena
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- haiku_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: haiku
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- romance_arte_mayor_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: romance_arte_mayor
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- sexteto_lira_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- endecha_real_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: silva_arromanzada
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- endecha_real_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- endecha_real_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: silva_arromanzada
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- endecha_real_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: endecha_real
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- lira_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: lira
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- romance_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: romance
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- sexteto_lira_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- cuarteto_lira_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: sexta_rima
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- cuarteto_lira_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: sexteto_lira
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- ovillejo_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: ovillejo
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- chamberga_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: chamberga
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- rhyme_type >  1.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- haiku_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- estrofa_francisco_de_la_torre_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- novena_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: unknown
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- novena_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: novena
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- estrofa_francisco_de_la_torre_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: estrofa_francisco_de_la_torre
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- haiku_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: haiku
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- septeto_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- sextilla_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: septeto
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- sextilla_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- seguidilla_compuesta_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- copla_mixta_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: septilla
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- copla_mixta_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: copla_mixta
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- seguidilla_compuesta_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: seguidilla_compuesta
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- copla_real_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: copla_real
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- estrofa_manriqueña_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: estrofa_manriqueña
+|   |   |   |   |   |   |   |   |   |   |   |   |--- estrofa_sáfica_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: estrofa_sáfica
+|   |   |   |   |   |   |   |   |   |   |   |--- octava_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |--- octava_real_regex <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- copla_castellana_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: octava
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- copla_castellana_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: copla_castellana
+|   |   |   |   |   |   |   |   |   |   |   |   |--- octava_real_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: octava_real
+|   |   |   |   |   |   |   |   |   |   |--- sextilla_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- quintilla_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |--- octava_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: sexteto_lira
+|   |   |   |   |   |   |   |   |   |   |   |   |--- octava_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |--- class: sexteto
+|   |   |   |   |   |   |   |   |   |   |   |--- quintilla_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: sextilla
+|   |   |   |   |   |   |   |   |   |--- copla_arte_menor_regex >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- redondilla_lengths <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: copla_arte_mayor
+|   |   |   |   |   |   |   |   |   |   |--- redondilla_lengths >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: copla_arte_menor
+|   |   |   |   |   |   |   |   |--- espinela_regex >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: espinela
+|   |   |   |   |   |   |   |--- septeto_lira_regex >  0.50
+|   |   |   |   |   |   |   |   |--- class: septeto_lira
+|   |   |   |   |   |   |--- couplet_regex >  0.50
+|   |   |   |   |   |   |   |--- class: couplet
+|   |   |   |   |   |--- terceto_monorrimo_regex >  0.50
+|   |   |   |   |   |   |--- class: terceto_monorrimo
+|   |   |   |   |--- octavilla_regex >  0.50
+|   |   |   |   |   |--- class: octavilla
+|   |   |   |--- quintilla_regex >  0.50
+|   |   |   |   |--- redondilla_lengths <= 0.50
+|   |   |   |   |   |--- class: quinteto
+|   |   |   |   |--- redondilla_lengths >  0.50
+|   |   |   |   |   |--- class: quintilla
+|   |   |--- cuarteto_lira_regex >  0.50
+|   |   |   |--- septilla_lengths <= 0.50
+|   |   |   |   |--- septeto_lira_lengths <= 0.50
+|   |   |   |   |   |--- cuarteta_regex <= 0.50
+|   |   |   |   |   |   |--- romance_arte_mayor_regex <= 0.50
+|   |   |   |   |   |   |   |--- class: cuarteto
+|   |   |   |   |   |   |--- romance_arte_mayor_regex >  0.50
+|   |   |   |   |   |   |   |--- class: seguidilla_gitana
+|   |   |   |   |   |--- cuarteta_regex >  0.50
+|   |   |   |   |   |   |--- class: serventesio
+|   |   |   |   |--- septeto_lira_lengths >  0.50
+|   |   |   |   |   |--- endecha_real_lengths <= 0.50
+|   |   |   |   |   |   |--- class: cuarteto_lira
+|   |   |   |   |   |--- endecha_real_lengths >  0.50
+|   |   |   |   |   |   |--- class: endecha_real
+|   |   |   |--- septilla_lengths >  0.50
+|   |   |   |   |--- estrofa_sáfica_regex <= 0.50
+|   |   |   |   |   |--- cantar_regex <= 0.50
+|   |   |   |   |   |   |--- class: redondilla
+|   |   |   |   |   |--- cantar_regex >  0.50
+|   |   |   |   |   |   |--- seguidilla_lengths <= 0.50
+|   |   |   |   |   |   |   |--- class: cantar
+|   |   |   |   |   |   |--- seguidilla_lengths >  0.50
+|   |   |   |   |   |   |   |--- class: seguidilla
+|   |   |   |   |--- estrofa_sáfica_regex >  0.50
+|   |   |   |   |   |--- class: cuarteta
+|   |--- soleá_regex >  0.50
+|   |   |--- redondilla_lengths <= 0.50
+|   |   |   |--- class: terceto
+|   |   |--- redondilla_lengths >  0.50
+|   |   |   |--- rhyme_type <= 0.50
+|   |   |   |   |--- copla_arte_menor_lengths <= 0.50
+|   |   |   |   |   |--- class: haiku
+|   |   |   |   |--- copla_arte_menor_lengths >  0.50
+|   |   |   |   |   |--- class: soleá
+|   |   |   |--- rhyme_type >  0.50
+|   |   |   |   |--- class: tercetillo
+|--- cuaderna_vía_regex >  0.50
+|   |--- class: cuaderna_vía
+
+rhyme_type ['assonant' 'consonant' 'unrhymed']
+1.0
+                      precision    recall  f1-score   support
+
+              cantar       0.00      0.00      0.00         2
+           chamberga       0.00      0.00      0.00         2
+    copla_arte_menor       0.00      0.00      0.00         1
+    copla_castellana       0.00      0.00      0.00         0
+         copla_mixta       0.00      0.00      0.00         2
+       cuarteto_lira       0.00      0.00      0.00         1
+        endecha_real       0.00      0.00      0.00         1
+  estrofa_manriqueña       1.00      1.00      1.00         1
+      estrofa_sáfica       0.00      0.00      0.00         1
+                lira       0.00      0.00      0.00         2
+              octava       0.00      0.00      0.00         1
+         octava_real       1.00      1.00      1.00         1
+            ovillejo       0.00      0.00      0.00         2
+           quintilla       1.00      1.00      1.00         1
+             romance       0.00      0.00      0.00         2
+  romance_arte_mayor       0.00      0.00      0.00         1
+          seguidilla       0.00      0.00      0.00         0
+seguidilla_compuesta       0.33      0.50      0.40         2
+   seguidilla_gitana       0.00      0.00      0.00         2
+            septilla       0.00      0.00      0.00         2
+         serventesio       0.00      0.00      0.00         1
+          sexta_rima       0.00      0.00      0.00         1
+             sexteto       0.00      0.00      0.00         0
+   silva_arromanzada       0.00      0.00      0.00         2
+             unknown       0.00      0.00      0.00         0
+
+            accuracy                           0.13        31
+           macro avg       0.13      0.14      0.14        31
+        weighted avg       0.12      0.13      0.12        31
+

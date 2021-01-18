@@ -1,0 +1,325 @@
+|--- min_length_verse_4 <= 1.50
+|   |--- min_length_verse_3 <= 9.00
+|   |   |--- min_length_verse_3 <= 1.50
+|   |   |   |--- rhyming_pattern_verse_2 <= 1.50
+|   |   |   |   |--- class: unknown
+|   |   |   |--- rhyming_pattern_verse_2 >  1.50
+|   |   |   |   |--- class: couplet
+|   |   |--- min_length_verse_3 >  1.50
+|   |   |   |--- min_length_verse_3 <= 5.50
+|   |   |   |   |--- min_length_verse_2 <= 6.50
+|   |   |   |   |   |--- class: tercetillo
+|   |   |   |   |--- min_length_verse_2 >  6.50
+|   |   |   |   |   |--- class: haiku
+|   |   |   |--- min_length_verse_3 >  5.50
+|   |   |   |   |--- rhyme_type <= 0.50
+|   |   |   |   |   |--- class: soleá
+|   |   |   |   |--- rhyme_type >  0.50
+|   |   |   |   |   |--- class: tercetillo
+|   |--- min_length_verse_3 >  9.00
+|   |   |--- rhyming_pattern_verse_2 <= 1.00
+|   |   |   |--- class: terceto
+|   |   |--- rhyming_pattern_verse_2 >  1.00
+|   |   |   |--- class: terceto_monorrimo
+|--- min_length_verse_4 >  1.50
+|   |--- min_length_verse_5 <= 1.50
+|   |   |--- min_length_verse_1 <= 13.50
+|   |   |   |--- min_length_verse_3 <= 8.50
+|   |   |   |   |--- rhyming_pattern_verse_4 <= 2.50
+|   |   |   |   |   |--- rhyming_pattern_verse_2 <= 2.50
+|   |   |   |   |   |   |--- min_length_verse_4 <= 9.50
+|   |   |   |   |   |   |   |--- min_length_verse_4 <= 6.50
+|   |   |   |   |   |   |   |   |--- class: seguidilla
+|   |   |   |   |   |   |   |--- min_length_verse_4 >  6.50
+|   |   |   |   |   |   |   |   |--- class: cantar
+|   |   |   |   |   |   |--- min_length_verse_4 >  9.50
+|   |   |   |   |   |   |   |--- class: endecha_real
+|   |   |   |   |   |--- rhyming_pattern_verse_2 >  2.50
+|   |   |   |   |   |   |--- class: redondilla
+|   |   |   |   |--- rhyming_pattern_verse_4 >  2.50
+|   |   |   |   |   |--- class: cuarteta
+|   |   |   |--- min_length_verse_3 >  8.50
+|   |   |   |   |--- min_length_verse_4 <= 5.50
+|   |   |   |   |   |--- class: estrofa_sáfica
+|   |   |   |   |--- min_length_verse_4 >  5.50
+|   |   |   |   |   |--- min_length_verse_2 <= 6.50
+|   |   |   |   |   |   |--- class: seguidilla_gitana
+|   |   |   |   |   |--- min_length_verse_2 >  6.50
+|   |   |   |   |   |   |--- rhyming_pattern_verse_3 <= 2.50
+|   |   |   |   |   |   |   |--- rhyming_pattern_verse_2 <= 1.50
+|   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_3 <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: estrofa_francisco_de_la_torre
+|   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_3 >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: unknown
+|   |   |   |   |   |   |   |--- rhyming_pattern_verse_2 >  1.50
+|   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_3 <= 1.00
+|   |   |   |   |   |   |   |   |   |--- class: cuarteto_lira
+|   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_3 >  1.00
+|   |   |   |   |   |   |   |   |   |--- max_length_verse_2 <= 8.50
+|   |   |   |   |   |   |   |   |   |   |--- class: cuarteto_lira
+|   |   |   |   |   |   |   |   |   |--- max_length_verse_2 >  8.50
+|   |   |   |   |   |   |   |   |   |   |--- max_length_verse_4 <= 9.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: cuarteto_lira
+|   |   |   |   |   |   |   |   |   |   |--- max_length_verse_4 >  9.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: serventesio
+|   |   |   |   |   |   |--- rhyming_pattern_verse_3 >  2.50
+|   |   |   |   |   |   |   |--- min_length_verse_2 <= 9.00
+|   |   |   |   |   |   |   |   |--- class: cuarteto_lira
+|   |   |   |   |   |   |   |--- min_length_verse_2 >  9.00
+|   |   |   |   |   |   |   |   |--- class: cuarteto
+|   |   |--- min_length_verse_1 >  13.50
+|   |   |   |--- rhyming_pattern_verse_4 <= 2.50
+|   |   |   |   |--- class: cuaderna_vía
+|   |   |   |--- rhyming_pattern_verse_4 >  2.50
+|   |   |   |   |--- class: serventesio
+|   |--- min_length_verse_5 >  1.50
+|   |   |--- min_length_verse_7 <= 1.50
+|   |   |   |--- rhyming_pattern_verse_6 <= 1.50
+|   |   |   |   |--- min_length_verse_4 <= 9.00
+|   |   |   |   |   |--- max_length_verse_3 <= 8.50
+|   |   |   |   |   |   |--- max_length_verse_5 <= 9.00
+|   |   |   |   |   |   |   |--- class: unknown
+|   |   |   |   |   |   |--- max_length_verse_5 >  9.00
+|   |   |   |   |   |   |   |--- class: lira
+|   |   |   |   |   |--- max_length_verse_3 >  8.50
+|   |   |   |   |   |   |--- class: quintilla
+|   |   |   |   |--- min_length_verse_4 >  9.00
+|   |   |   |   |   |--- class: quinteto
+|   |   |   |--- rhyming_pattern_verse_6 >  1.50
+|   |   |   |   |--- min_length_verse_6 <= 8.50
+|   |   |   |   |   |--- max_length_verse_5 <= 11.00
+|   |   |   |   |   |   |--- class: sextilla
+|   |   |   |   |   |--- max_length_verse_5 >  11.00
+|   |   |   |   |   |   |--- class: sexteto_lira
+|   |   |   |   |--- min_length_verse_6 >  8.50
+|   |   |   |   |   |--- min_length_verse_1 <= 9.00
+|   |   |   |   |   |   |--- class: sexteto_lira
+|   |   |   |   |   |--- min_length_verse_1 >  9.00
+|   |   |   |   |   |   |--- rhyming_pattern_verse_3 <= 2.50
+|   |   |   |   |   |   |   |--- rhyming_pattern_verse_6 <= 3.50
+|   |   |   |   |   |   |   |   |--- class: sexteto
+|   |   |   |   |   |   |   |--- rhyming_pattern_verse_6 >  3.50
+|   |   |   |   |   |   |   |   |--- class: sexta_rima
+|   |   |   |   |   |   |--- rhyming_pattern_verse_3 >  2.50
+|   |   |   |   |   |   |   |--- max_length_verse_5 <= 9.00
+|   |   |   |   |   |   |   |   |--- class: sexteto_lira
+|   |   |   |   |   |   |   |--- max_length_verse_5 >  9.00
+|   |   |   |   |   |   |   |   |--- class: sexteto
+|   |   |--- min_length_verse_7 >  1.50
+|   |   |   |--- rhyming_pattern_verse_9 <= 5.50
+|   |   |   |   |--- min_length_verse_8 <= 3.00
+|   |   |   |   |   |--- min_length_verse_1 <= 8.50
+|   |   |   |   |   |   |--- max_length_verse_2 <= 10.00
+|   |   |   |   |   |   |   |--- rhyming_pattern_verse_5 <= 3.50
+|   |   |   |   |   |   |   |   |--- rhyme_type <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: seguidilla_compuesta
+|   |   |   |   |   |   |   |   |--- rhyme_type >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: septilla
+|   |   |   |   |   |   |   |--- rhyming_pattern_verse_5 >  3.50
+|   |   |   |   |   |   |   |   |--- class: copla_mixta
+|   |   |   |   |   |   |--- max_length_verse_2 >  10.00
+|   |   |   |   |   |   |   |--- class: septeto_lira
+|   |   |   |   |   |--- min_length_verse_1 >  8.50
+|   |   |   |   |   |   |--- class: septeto
+|   |   |   |   |--- min_length_verse_8 >  3.00
+|   |   |   |   |   |--- min_length_verse_9 <= 1.50
+|   |   |   |   |   |   |--- min_length_verse_5 <= 8.50
+|   |   |   |   |   |   |   |--- rhyming_pattern_verse_8 <= 2.50
+|   |   |   |   |   |   |   |   |--- class: copla_arte_menor
+|   |   |   |   |   |   |   |--- rhyming_pattern_verse_8 >  2.50
+|   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_5 <= 3.50
+|   |   |   |   |   |   |   |   |   |--- class: octavilla
+|   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_5 >  3.50
+|   |   |   |   |   |   |   |   |   |--- min_length_verse_6 <= 6.50
+|   |   |   |   |   |   |   |   |   |   |--- class: octava
+|   |   |   |   |   |   |   |   |   |--- min_length_verse_6 >  6.50
+|   |   |   |   |   |   |   |   |   |   |--- class: copla_castellana
+|   |   |   |   |   |   |--- min_length_verse_5 >  8.50
+|   |   |   |   |   |   |   |--- rhyming_pattern_verse_3 <= 2.50
+|   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_6 <= 3.50
+|   |   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_8 <= 3.50
+|   |   |   |   |   |   |   |   |   |   |--- class: octava
+|   |   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_8 >  3.50
+|   |   |   |   |   |   |   |   |   |   |--- class: octava_real
+|   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_6 >  3.50
+|   |   |   |   |   |   |   |   |   |--- class: octava
+|   |   |   |   |   |   |   |--- rhyming_pattern_verse_3 >  2.50
+|   |   |   |   |   |   |   |   |--- min_length_verse_5 <= 9.50
+|   |   |   |   |   |   |   |   |   |--- class: octava
+|   |   |   |   |   |   |   |   |--- min_length_verse_5 >  9.50
+|   |   |   |   |   |   |   |   |   |--- class: copla_arte_mayor
+|   |   |   |   |   |--- min_length_verse_9 >  1.50
+|   |   |   |   |   |   |--- rhyming_pattern_verse_10 <= 0.50
+|   |   |   |   |   |   |   |--- min_length_verse_10 <= 1.50
+|   |   |   |   |   |   |   |   |--- class: novena
+|   |   |   |   |   |   |   |--- min_length_verse_10 >  1.50
+|   |   |   |   |   |   |   |   |--- class: unknown
+|   |   |   |   |   |   |--- rhyming_pattern_verse_10 >  0.50
+|   |   |   |   |   |   |   |--- rhyme_type <= 0.50
+|   |   |   |   |   |   |   |   |--- max_length_verse_7 <= 5.50
+|   |   |   |   |   |   |   |   |   |--- class: chamberga
+|   |   |   |   |   |   |   |   |--- max_length_verse_7 >  5.50
+|   |   |   |   |   |   |   |   |   |--- max_length_verse_12 <= 10.00
+|   |   |   |   |   |   |   |   |   |   |--- max_length_verse_12 <= 7.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: silva_arromanzada
+|   |   |   |   |   |   |   |   |   |   |--- max_length_verse_12 >  7.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: romance
+|   |   |   |   |   |   |   |   |   |--- max_length_verse_12 >  10.00
+|   |   |   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_11 <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- max_length_verse_16 <= 12.50
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: silva_arromanzada
+|   |   |   |   |   |   |   |   |   |   |   |--- max_length_verse_16 >  12.50
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: endecha_real
+|   |   |   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_11 >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- min_length_verse_1 <= 8.50
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: silva_arromanzada
+|   |   |   |   |   |   |   |   |   |   |   |--- min_length_verse_1 >  8.50
+|   |   |   |   |   |   |   |   |   |   |   |   |--- class: romance_arte_mayor
+|   |   |   |   |   |   |   |--- rhyme_type >  0.50
+|   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_5 <= 3.50
+|   |   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_9 <= 4.50
+|   |   |   |   |   |   |   |   |   |   |--- class: copla_real
+|   |   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_9 >  4.50
+|   |   |   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_4 <= 2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: espinela
+|   |   |   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_4 >  2.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: copla_real
+|   |   |   |   |   |   |   |   |--- rhyming_pattern_verse_5 >  3.50
+|   |   |   |   |   |   |   |   |   |--- class: ovillejo
+|   |   |   |--- rhyming_pattern_verse_9 >  5.50
+|   |   |   |   |--- class: estrofa_manriqueña
+
+rhyme_type ['assonant' 'consonant' 'unrhymed']
+rhyming_pattern_verse_1 ['-' '0' 'a']
+rhyming_pattern_verse_2 ['-' '0' 'a' 'b']
+rhyming_pattern_verse_3 ['-' '0' 'a' 'b' 'c']
+rhyming_pattern_verse_4 ['-' '0' 'a' 'b' 'c']
+rhyming_pattern_verse_5 ['-' '0' 'a' 'b' 'c']
+rhyming_pattern_verse_6 ['-' '0' 'a' 'b' 'c' 'd']
+rhyming_pattern_verse_7 ['-' '0' 'a' 'b' 'c' 'd']
+rhyming_pattern_verse_8 ['-' '0' 'a' 'b' 'c' 'd' 'e']
+rhyming_pattern_verse_9 ['-' '0' 'a' 'b' 'c' 'd' 'f']
+rhyming_pattern_verse_10 ['0' 'a' 'b' 'c' 'd']
+rhyming_pattern_verse_11 ['-' '0' 'a' 'b' 'c' 'd' 'e']
+rhyming_pattern_verse_12 ['0' 'a' 'b' 'f']
+rhyming_pattern_verse_13 ['-' '0' 'b' 'c' 'd']
+rhyming_pattern_verse_14 ['0' 'a' 'b']
+rhyming_pattern_verse_15 ['-' '0' 'a' 'b' 'c' 'd']
+rhyming_pattern_verse_16 ['0' 'a' 'b']
+rhyming_pattern_verse_17 ['-' '0' 'd']
+rhyming_pattern_verse_18 ['0' 'a' 'b']
+rhyming_pattern_verse_19 ['-' '0' 'b' 'd']
+rhyming_pattern_verse_20 ['0' 'a' 'b']
+rhyming_pattern_verse_21 ['-' '0' 'b']
+rhyming_pattern_verse_22 ['0' 'a' 'b']
+rhyming_pattern_verse_23 ['-' '0' 'b' 'c']
+rhyming_pattern_verse_24 ['0' 'a' 'b']
+rhyming_pattern_verse_25 ['-' '0' 'c']
+rhyming_pattern_verse_26 ['0' 'a' 'b']
+rhyming_pattern_verse_27 ['-' '0' 'c']
+rhyming_pattern_verse_28 ['0' 'a' 'b']
+rhyming_pattern_verse_29 ['-' '0' 'c' 'd']
+rhyming_pattern_verse_30 ['0' 'a' 'b']
+rhyming_pattern_verse_31 ['-' '0' 'c' 'd']
+rhyming_pattern_verse_32 ['0' 'a' 'b']
+rhyming_pattern_verse_33 ['-' '0' 'c' 'd']
+rhyming_pattern_verse_34 ['0' 'a' 'b']
+rhyming_pattern_verse_35 ['-' '0' 'c' 'd']
+rhyming_pattern_verse_36 ['0' 'a' 'b']
+rhyming_pattern_verse_37 ['-' '0' 'c' 'e']
+rhyming_pattern_verse_38 ['0' 'a']
+rhyming_pattern_verse_39 ['-' '0']
+rhyming_pattern_verse_40 ['0' 'a']
+rhyming_pattern_verse_41 ['-' '0' 'c' 'e']
+rhyming_pattern_verse_42 ['0' 'a']
+rhyming_pattern_verse_43 ['-' '0']
+rhyming_pattern_verse_44 ['0' 'a']
+rhyming_pattern_verse_45 ['-' '0']
+rhyming_pattern_verse_46 ['0' 'a']
+rhyming_pattern_verse_47 ['-' '0']
+rhyming_pattern_verse_48 ['0' 'a']
+rhyming_pattern_verse_49 ['-' '0']
+rhyming_pattern_verse_50 ['0' 'a']
+rhyming_pattern_verse_51 ['-' '0']
+rhyming_pattern_verse_52 ['0' 'a']
+rhyming_pattern_verse_53 ['0' 'f']
+rhyming_pattern_verse_54 ['0' 'a']
+rhyming_pattern_verse_55 ['0' 'f']
+rhyming_pattern_verse_56 ['0' 'a']
+rhyming_pattern_verse_57 ['-' '0']
+rhyming_pattern_verse_58 ['0' 'a']
+rhyming_pattern_verse_59 ['-' '0']
+rhyming_pattern_verse_60 ['0' 'a']
+rhyming_pattern_verse_61 ['-' '0']
+rhyming_pattern_verse_62 ['0' 'a']
+rhyming_pattern_verse_63 ['-' '0']
+rhyming_pattern_verse_64 ['0' 'a']
+rhyming_pattern_verse_65 ['0' 'g']
+rhyming_pattern_verse_66 ['0' 'a']
+rhyming_pattern_verse_67 ['-' '0']
+rhyming_pattern_verse_68 ['0' 'a']
+rhyming_pattern_verse_69 ['0' 'g']
+rhyming_pattern_verse_70 ['0' 'a']
+rhyming_pattern_verse_71 ['-' '0']
+rhyming_pattern_verse_72 ['0' 'a']
+rhyming_pattern_verse_73 ['-' '0']
+rhyming_pattern_verse_74 ['0' 'a']
+rhyming_pattern_verse_75 ['-' '0']
+rhyming_pattern_verse_76 ['0' 'a']
+rhyming_pattern_verse_77 ['0' 'h']
+rhyming_pattern_verse_78 ['0' 'a']
+rhyming_pattern_verse_79 ['-' '0']
+rhyming_pattern_verse_80 ['0' 'a']
+rhyming_pattern_verse_81 ['0' 'h']
+rhyming_pattern_verse_82 ['0' 'a']
+rhyming_pattern_verse_83 ['0']
+rhyming_pattern_verse_84 ['0']
+rhyming_pattern_verse_85 ['0']
+rhyming_pattern_verse_86 ['0']
+rhyming_pattern_verse_87 ['0']
+rhyming_pattern_verse_88 ['0']
+rhyming_pattern_verse_89 ['0']
+rhyming_pattern_verse_90 ['0']
+rhyming_pattern_verse_91 ['0']
+rhyming_pattern_verse_92 ['0']
+rhyming_pattern_verse_93 ['0']
+rhyming_pattern_verse_94 ['0']
+rhyming_pattern_verse_95 ['0']
+rhyming_pattern_verse_96 ['0']
+rhyming_pattern_verse_97 ['0']
+rhyming_pattern_verse_98 ['0']
+rhyming_pattern_verse_99 ['0']
+rhyming_pattern_verse_100 ['0']
+1.0
+                      precision    recall  f1-score   support
+
+              cantar       0.00      0.00      0.00         2
+           chamberga       0.00      0.00      0.00         2
+    copla_arte_menor       1.00      1.00      1.00         1
+         copla_mixta       0.00      0.00      0.00         2
+       cuarteto_lira       0.00      0.00      0.00         1
+        endecha_real       0.50      1.00      0.67         1
+  estrofa_manriqueña       0.00      0.00      0.00         1
+      estrofa_sáfica       0.00      0.00      0.00         1
+                lira       1.00      1.00      1.00         2
+              octava       1.00      1.00      1.00         1
+         octava_real       1.00      1.00      1.00         1
+            ovillejo       0.00      0.00      0.00         2
+            quinteto       0.00      0.00      0.00         0
+           quintilla       1.00      1.00      1.00         1
+             romance       0.00      0.00      0.00         2
+  romance_arte_mayor       0.00      0.00      0.00         1
+          seguidilla       0.00      0.00      0.00         0
+seguidilla_compuesta       0.00      0.00      0.00         2
+   seguidilla_gitana       1.00      1.00      1.00         2
+            septilla       0.00      0.00      0.00         2
+         serventesio       0.00      0.00      0.00         1
+          sexta_rima       0.00      0.00      0.00         1
+             sexteto       0.00      0.00      0.00         0
+   silva_arromanzada       0.00      0.00      0.00         2
+             unknown       0.00      0.00      0.00         0
+
+            accuracy                           0.29        31
+           macro avg       0.26      0.28      0.27        31
+        weighted avg       0.27      0.29      0.28        31
+
