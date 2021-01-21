@@ -2,8 +2,9 @@
 
 Repository with all the information to replicate our results
 
+The folder `sources` contains all the code required to train a Bert or Glove model from scratch. The root of this repository contains all the code to replicate our results.
 
-Corpus dataset for evaluation on rantanplan includes poems under copyright so we are not able to publish it online but we can share it privately in order to replicate our results
+Corpus dataset includes poems under copyright so we are not able to publish it online but we can share it privately in order to replicate our results. For Glove and Bert a text-free dataset has been compiled so no copyright is infringed.
 
 # Dependency installation
 
